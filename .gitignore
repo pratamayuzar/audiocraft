@@ -49,9 +49,12 @@ ENV/
 # egs with manifest files
 egs/*
 !egs/example
+!egs/lagoe
+
 # local datasets
 dataset/*
 !dataset/example
+!dataset/lagoe
 
 # personal notebooks & scripts
 */local_scripts
