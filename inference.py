@@ -1,4 +1,5 @@
 import torch
+import torchaudio
 import audiocraft.models
 from audiocraft.utils.notebook import display_audio
 
@@ -10,8 +11,13 @@ print("🚀 Loading fine-tuned MAGNeT model...")
 magnet = audiocraft.models.MAGNeT.get_pretrained(CHECKPOINT_DIR)
 
 # Move model to GPU if available
-device = "cuda" if torch.cuda.is_available() else "cpu"
-magnet.to(device)
+if torch.cuda.is_available():
+    magnet.cuda()  # ✅ Fix: Move model to GPU properly
+    device = "cuda"
+else:
+    magnet.cpu()
+    device = "cpu"
+
 print(f"✅ Model loaded on {device}")
 
 # Define text prompt for music generation
@@ -19,7 +25,7 @@ prompt = "Energetic upbeat koplo music with strong kendang and bass, suitable fo
 
 # Generate audio
 print("🎵 Generating music...")
-output = magnet.generate(prompt, progress=True)
+output = magnet.generate(prompt, progress=True)  # Ensure generate() works
 
 # Save audio file
 OUTPUT_PATH = "/workspace/audiocraft/generated_music.wav"
