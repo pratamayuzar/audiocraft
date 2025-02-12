@@ -6,18 +6,13 @@ from audiocraft.utils.notebook import display_audio
 # Define checkpoint path
 CHECKPOINT_DIR = "/workspace/audiocraft/checkpoints/my_audio_lm/"
 
-# Load your fine-tuned model
+# Load fine-tuned model
 print("🚀 Loading fine-tuned MAGNeT model...")
 magnet = audiocraft.models.MAGNeT.get_pretrained(CHECKPOINT_DIR)
 
-# Move model to GPU if available
-if torch.cuda.is_available():
-    magnet.cuda()  # ✅ Fix: Move model to GPU properly
-    device = "cuda"
-else:
-    magnet.cpu()
-    device = "cpu"
-
+# Move internal model to GPU
+device = "cuda" if torch.cuda.is_available() else "cpu"
+magnet.model.to(device)  # ✅ Move the internal model to GPU
 print(f"✅ Model loaded on {device}")
 
 # Define text prompt for music generation
@@ -25,7 +20,7 @@ prompt = "Energetic upbeat koplo music with strong kendang and bass, suitable fo
 
 # Generate audio
 print("🎵 Generating music...")
-output = magnet.generate(prompt, progress=True)  # Ensure generate() works
+output = magnet.generate(prompt, progress=True)
 
 # Save audio file
 OUTPUT_PATH = "/workspace/audiocraft/generated_music.wav"
