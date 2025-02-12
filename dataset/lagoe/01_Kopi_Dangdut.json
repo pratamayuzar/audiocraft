@@ -1,1 +1,15 @@
-{"key": "G", "artist": "Vita Alvia", "sample_rate": 44100, "file_extension": "mp3", "description": "Dangdut music, with fast and energic rhythm featuring modern instruments such as synthesizer, drums, bass, keyboard, guitar, electric guitar, alongside the traditional kendang", "keywords": "fast, energic", "duration": 235.54, "bpm": "123", "genre": "koplo", "title": "Kopi Dangdut", "name": "01_Kopi_Dangdut", "instrument": ["synthesizer", "drums", "bass", "kendang", "keyboard", "guitar", "electricguitar"], "moods": ["energetic", "happy", "love", "upbeat"]}
+{
+    "key": "G", 
+    "artist": "Vita Alvia", 
+    "sample_rate": 44100, 
+    "file_extension": "mp3", 
+    "description": "An upbeat 'Koplo' track, featuring dynamic percussion, lively rhythms, and traditional instruments like the kendang and suling. The melody should be catchy and energetic, encouraging listeners to dance. Incorporate modern electronic elements to give it a contemporary feel, while maintaining the authentic essence of Dangdut Koplo.", 
+    "keywords": "fast, energic", 
+    "duration": 235.54, 
+    "bpm": "123", 
+    "genre": "koplo", 
+    "title": "Kopi Dangdut", 
+    "name": "01_Kopi_Dangdut", 
+    "instrument": ["synthesizer", "drums", "bass", "kendang", "keyboard", "guitar", "electricguitar"], 
+    "moods": ["energetic", "happy", "love", "upbeat"]
+}
