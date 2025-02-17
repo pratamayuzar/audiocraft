@@ -1,0 +1,31 @@
+{
+    "key": "G", 
+    "artist": "Arlida Putri Feat Dike Sabrina", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An energetic koplo instrumental track featuring a vibrant blend of traditional Indonesian percussion (kendang) and modern electronic production. The composition is driven by a rapid, pulsating kendang beat, underscored by dynamic layers of electronic drums and synthesized textures. Intricate rhythmic patterns intertwine with lively bass lines, creating a danceable, high-energy groove. The arrangement transitions between intense, driving sections and rhythmic interludes, encapsulating the spirited and infectious essence of koplo music.", 
+    "keywords": "koplo, kendang, groove, energetic, danceable", 
+    "duration": 307.36, 
+    "bpm": "136", 
+    "genre": "koplo", 
+    "title": "Demi Kowe", 
+    "name": "demi_kowe", 
+    "instrument": [
+      "drums",
+      "bass",
+      "guitar",
+      "electricguitar",
+      "piano",
+      "synthesizer",
+      "kendang",
+      "keyboard"
+    ],
+    "moods": [
+        "happy", 
+        "melodic", 
+        "uplifting", 
+        "love", 
+        "energetic", 
+        "relaxing"
+       ]
+}

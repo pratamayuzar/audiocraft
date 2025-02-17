@@ -1,0 +1,40 @@
+{
+    "key": "E", 
+    "artist": "Bernadya", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "A contemporary koplo track blending modern pop elements with traditional Indonesian musical influences. The composition features rhythmic percussion, melodic guitar riffs, and ambient keyboard harmonies. The arrangement transitions between upbeat, dance-inducing sections and softer, introspective interludes, capturing a dynamic and emotive musical journey.", 
+    "keywords": "riff, kendang, emotive, musical journey", 
+    "duration": 184.03, 
+    "bpm": "112", 
+    "genre": "koplo", 
+    "title": "Untungnya Hidup Harus Terus Berjalan", 
+    "name": "untungnya_hidup_harus_terus_berjalan", 
+    "instrument": [
+      "drums", 
+      "bass", 
+      "percussion", 
+      "synthesizer", 
+      "electricguitar",
+      "guitar", 
+      "piano", 
+      "keyboard", 
+      "flute", 
+      "acousticguitar"
+    ],
+    "moods": [
+      "happy", 
+      "relaxing", 
+      "uplifting", 
+      "background", 
+      "advertising", 
+      "love", 
+      "positive", 
+      "film", 
+      "energetic", 
+      "deep", 
+      "inspiring", 
+      "romantic", 
+      "documentary"
+    ]
+}

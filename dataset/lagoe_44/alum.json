@@ -1,0 +1,35 @@
+{
+    "key": "E", 
+    "artist": "Sinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An energetic koplo track infused with modern dangdut influences. The song opens with a strong rhythmic foundation provided by kendang (traditional drums and percussion), gradually evolving into a vibrant dance beat enriched with contemporary synthesizer layers. Lively, the beat, creating a festive atmosphere that invites listeners to dance. The dynamic arrangement transitions seamlessly blending traditional elements with modern production for an immersive musical experience.", 
+    "keywords": "koplo, kendang, energic, dance", 
+    "duration": 383.52979591836737, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Alum", 
+    "name": "alum", 
+    "instrument": [
+        "piano",
+        "drums",
+        "bass",
+        "synthesizer",
+        "electricguitar",
+        "guitar",
+        "kendang",
+        "keyboard"
+      ], 
+    "moods": [
+        "happy", 
+        "melodic", 
+        "relaxing", 
+        "love", 
+        "uplifting", 
+        "romantic", 
+        "background", 
+        "dark", 
+        "inspiring"
+    ]
+
+}

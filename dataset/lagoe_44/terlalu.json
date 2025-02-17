@@ -1,0 +1,33 @@
+{
+    "key": "E", 
+    "artist": "Sinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An emotive koplo instrumental track blending traditional Indonesian percussion (kendang) with modern musical elements. The composition is driven by dynamic kendang rhythms, complemented by electric guitar riffs and keyboard harmonies. The arrangement transitions between energetic, dance-inducing sections and softer, melodic interludes, capturing the heartfelt essence of the koplo genre.", 
+    "keywords": "koplo, kendang, emotive, energetic, heartfelt", 
+    "duration": 310.77, 
+    "bpm": "172", 
+    "genre": "koplo", 
+    "title": "Terlalu", 
+    "name": "terlalu", 
+    "instrument": [
+      "drums", 
+      "bass", 
+      "synthesizer", 
+      "piano", 
+      "electricguitar", 
+      "guitar", 
+      "kendang", 
+      "keyboard"
+    ],
+    "moods": [
+      "happy", 
+      "melodic", 
+      "energetic", 
+      "film", 
+      "relaxing", 
+      "love", 
+      "uplifting", 
+      "romantic"
+    ]
+}

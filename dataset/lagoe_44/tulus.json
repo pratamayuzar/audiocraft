@@ -1,0 +1,34 @@
+{
+    "key": "A", 
+    "artist": "Sinta Arsinta feat Arya Galih", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "A koplo music featuring a dynamic blend of traditional Indonesian percussion (kendang) and modern instruments. The track is driven by energetic kendang rhythms, complemented by electric guitar riffs and keyboard harmonies. The arrangement includes saxophone melodies that add a smooth, melodic layer to the composition. The music transitions between upbeat, dance-inducing sections and softer, melodic interludes, capturing the lively and heartfelt essence of the koplo genre", 
+    "keywords": "koplo, kendang, groove, energetic, danceable", 
+    "duration": 302.68, 
+    "bpm": "117", 
+    "genre": "koplo", 
+    "title": "Tulus", 
+    "name": "tulus", 
+    "instrument": [
+      "drums", 
+      "guitar", 
+      "bass", 
+      "piano", 
+      "electricguitar", 
+      "acousticguitar", 
+      "synthesizer", 
+      "keyboard",
+      "kendang"
+    ],
+    "moods": [
+        "happy", 
+        "uplifting", 
+        "positive", 
+        "melodic", 
+        "relaxing", 
+        "love", 
+        "romantic", 
+        "energetic"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "key": "A", 
+    "artist": "Arlida Putri", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An upbeat koplo instrumental track that showcases the high-energy, rhythmic drive typical of the genre. The composition is anchored by fast-paced, pulsating kendang beats, intertwined with modern electronic percussion elements. Layered synthesizer textures and a steady bass line provide a dynamic, dance-inducing groove. The arrangement features vibrant, syncopated rhythms with alternating segments of driving energy and catchy instrumental hooks, encapsulating the spirited and lively essence of koplo music.", 
+    "keywords": "koplo, kendang, upbeat, danceable", 
+    "duration": 245.99, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Pantun Janda", 
+    "name": "pantun_janda", 
+    "instrument": [
+        "drums",
+        "bass",
+        "guitar",
+        "electricguitar",
+        "piano",
+        "synthesizer",
+        "acousticguitar",
+        "keyboard",
+        "kendang"
+      ],
+    "moods": [
+        "happy", 
+        "melodic", 
+        "love", 
+        "uplifting", 
+        "energetic", 
+        "relaxing", 
+        "corporate", 
+        "background", 
+        "ballad", 
+        "positive", 
+        "advertising", 
+        "romantic", 
+        "motivational"
+       ]
+}

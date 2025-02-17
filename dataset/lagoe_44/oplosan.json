@@ -1,0 +1,34 @@
+{
+    "key": "D", 
+    "artist": "Arlida Putri feat Sinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An energetic koplo instrumental track featuring pulsating, high-tempo kendang (traditional Indonesian percussion) merged with modern electronic elements. The composition kicks off with a driving kendang beat that lays down an irresistible rhythm, evolving into dynamic segments filled with vibrant synthesizer layers and a deep, grooving bass. The arrangement alternates between intense rhythmic passages and catchy instrumental hooks, capturing the raw, danceable energy of koplo music.", 
+    "keywords": "koplo, kendang, energetic, danceable", 
+    "duration": 474.07, 
+    "bpm": "161", 
+    "genre": "koplo", 
+    "title": "Oplosan", 
+    "name": "oplosan", 
+    "instrument": [
+        "drums",
+        "bass",
+        "guitar",
+        "kendang",
+        "electricguitar",
+        "synthesizer",
+        "piano",
+        "keyboard"
+      ],
+    "moods": [
+        "happy",
+        "uplifting", 
+        "positive", 
+        "advertising", 
+        "background", 
+        "energetic", 
+        "relaxing", 
+        "melodic", 
+        "romantic"
+    ]
+}

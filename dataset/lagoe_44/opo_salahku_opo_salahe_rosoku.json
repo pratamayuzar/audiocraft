@@ -1,0 +1,15 @@
+{
+    "key": "A", 
+    "artist": "Shinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "blends traditional Indonesian elements with contemporary sounds, creating a heartfelt and engaging listening experience", 
+    "keywords": "Traditional and contemporary fusion, emotional ballad, love and regret, Indonesian traditional instruments, emotional turmoil", 
+    "duration": 353.48, 
+    "bpm": "117",
+    "genre": "koplo", 
+    "title": "Lintu", 
+    "name": "opo_salahku_opo_salahe_rosoku", 
+    "instrument": ["piano", "drums", "bass", "guitar", "electricguitar", "synthesizer", "acousticguitar", "keyboard","kendang"], 
+    "moods": ["love", "relaxing", "romantic", "christmas", "melodic", "ballad", "background", "meditative", "uplifting"]
+}

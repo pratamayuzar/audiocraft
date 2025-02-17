@@ -1,0 +1,39 @@
+{
+    "key": "D", 
+    "artist": "Sinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An energetic koplo that a dynamic blend of traditional Indonesian percussion and modern electronic elements. The track is driven by prominent traditional drums and kendang, layered with contemporary synthesizer textures that add a modern edge. The arrangement alternates between rhythmically intense sections and hook-driven instrumental choruses, creating a vibrant, danceable soundscape. This composition highlights a balance between organic traditional sounds and modern production techniques.", 
+    "keywords": "koplo, kendang, energetic, danceable", 
+    "duration": 416.78367346938774, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Anang Lanang", 
+    "name": "anak_lanang", 
+    "instrument": [
+        "piano",
+        "guitar",
+        "drums",
+        "bass",
+        "electricguitar",
+        "synthesizer",
+        "acousticguitar",
+        "kendang",
+        "violin"
+    ],
+    "moods": [
+        "happy", 
+        "relaxing", 
+        "love", 
+        "uplifting", 
+        "romantic", 
+        "meditative", 
+        "inspiring",
+        "melodic", 
+        "corporate", 
+        "positive", 
+        "background",
+        "film"
+    ]
+
+}

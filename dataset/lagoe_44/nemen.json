@@ -1,0 +1,15 @@
+{
+    "key": "D", 
+    "artist": "Niken Salindry", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "Song that blends traditional Javanese musical elements with modern instrumentation, creating a harmonious fusion", 
+    "keywords": "love, emotional", 
+    "duration": 360.05, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Nemen", 
+    "name": "nemen", 
+    "instrument": ["drums", "bass", "guitar", "piano", "electricguitar", "voice", "synthesizer", "keyboard", "acousticguitar", "violin", "kendang"], 
+    "moods": ["love", "happy", "relaxing", "melodic", "romantic", "energetic", "ballad", "uplifting", "film"]
+}

@@ -1,0 +1,15 @@
+{
+    "key": "F#", 
+    "artist": "Arlida Putri Feat Dike Sabrina", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An energetic 'Koplo' track, characterized by its lively tempo and rhythmic patterns. Incorporate traditional Indonesian instruments such as the kendang and suling (bamboo flute), complemented by modern electronic sounds. The melody should be catchy and vibrant, encouraging listeners to dance. Emphasize dynamic percussion and engaging vocals to reflect the spirited nature of the genre.", 
+    "keywords": "fast, energic", 
+    "duration": 345.58, 
+    "bpm": "144", 
+    "genre": "koplo", 
+    "title": "Ikan Dalam Kolam", 
+    "name": "ikan_dalam_kolam", 
+    "instrument": ["synthesizer", "drums", "bass", "keyboard", "guitar", "electric guitar", "kendang"], 
+    "moods": ["happy", "love", "energetic", "melodic", "christmas", "uplifting", "positive", "romantic", "inspiring"]
+}

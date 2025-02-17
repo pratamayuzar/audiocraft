@@ -1,0 +1,15 @@
+{
+    "key": "G", 
+    "artist": "Shinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "Music compelling fusion of traditional musical elements and contemporary themes, The arrangement features traditional instruments like the gamelan and kendang, providing a rich, rhythmic foundation.", 
+    "keywords": "dangdut, koplo, Javanese music, kendang, gamelan, heartbreak", 
+    "duration": 394.6, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Wirang", 
+    "name": "wirang", 
+    "instrument": ["drums", "bass", "guitar", "piano", "electricguitar", "synthesizer", "acousticguitar", "keyboard", "kendang"], 
+    "moods": ["love", "uplifting", "relaxing", "melodic", "christmas", "romantic", "positive", "ballad", "corporate", "background", "energetic"]
+}

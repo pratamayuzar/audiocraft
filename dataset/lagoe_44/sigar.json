@@ -1,0 +1,35 @@
+{
+    "key": "G", 
+    "artist": "Sinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "A vibrant koplo instrumental track blending traditional Indonesian percussion with modern musical elements. The composition is driven by dynamic kendang rhythms, complemented by electric guitar riffs and keyboard harmonies. The arrangement transitions between energetic, dance-inducing sections and melodic interludes, capturing the lively essence of the koplo genre.", 
+    "keywords": "koplo, riff, kendang, energetic, danceable, lively", 
+    "duration": 391.47, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Sigar", 
+    "name": "sigar", 
+    "instrument": [
+      "guitar", 
+      "bass", 
+      "drums", 
+      "piano", 
+      "electricguitar", 
+      "synthesizer", 
+      "acousticguitar", "kendang", 
+      "keyboard"
+    ],
+    "moods": [
+      "happy", 
+      "relaxing", 
+      "uplifting", 
+      "background", 
+      "melodic", 
+      "positive", 
+      "romantic", 
+      "corporate", 
+      "inspiring", 
+      "love"
+    ]
+}

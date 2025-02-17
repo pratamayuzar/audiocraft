@@ -1,0 +1,15 @@
+{
+    "key": "A", 
+    "artist": "Shinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "blending traditional Indonesian musical elements with contemporary sounds to create a heartfelt and engaging listening experience, enhancing the emotional depth of the song", 
+    "keywords": "Traditional and contemporary fusion, love and remorse, Emotional depth", 
+    "duration": 441.41, 
+    "bpm": "144",
+    "genre": "koplo", 
+    "title": "Orang Yang Salah", 
+    "name": "orang_yang_salah", 
+    "instrument": ["piano", "drums", "bass", "guitar", "electricguitar", "synthesizer", "acousticguitar", "keyboard","kendang"], 
+    "moods": ["love", "relaxing", "romantic", "christmas", "melodic", "ballad", "background", "meditative", "uplifting"]
+}

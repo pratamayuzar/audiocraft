@@ -1,0 +1,37 @@
+{
+    "key": "F", 
+    "artist": "Roro Widowati", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An emotive koplo instrumental track featuring traditional Indonesian percussion(koplo), including dynamic kendang rhythms, complemented by melodic guitar riffs and keyboard harmonies. The arrangement transitions between energetic, dance-inducing sections and softer, introspective interludes, capturing the heartfelt essence of the koplo genre.", 
+    "keywords": "koplo, riff, kendang, energetic, heartfelt", 
+    "duration": 316.63, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Sisa Rasa", 
+    "name": "sisa_rasa", 
+    "instrument": [
+      "piano", 
+      "drums", 
+      "electricguitar", 
+      "bass", 
+      "guitar", 
+      "synthesizer", 
+      "acousticguitar",
+      "kendang",
+      "saxophone"
+    ],
+    "moods": [
+      "happy", 
+      "relaxing", 
+      "melodic", 
+      "love", 
+      "romantic", 
+      "background", 
+      "uplifting", 
+      "energetic", 
+      "advertising", 
+      "corporate", 
+      "film"
+    ]
+}

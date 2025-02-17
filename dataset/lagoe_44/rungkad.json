@@ -1,0 +1,36 @@
+{
+    "key": "A", 
+    "artist": "Difarina Indra Adella", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "An energetic koplo instrumental track featuring dynamic kendang rhythms, complemented by electric guitar riffs and keyboard harmonies. The arrangement transitions between upbeat, dance-inducing sections and melodic interludes, capturing the lively essence of the koplo genre.", 
+    "keywords": "koplo, riff, kendang, energetic, upbeat", 
+    "duration": 338.80, 
+    "bpm": "123", 
+    "genre": "koplo", 
+    "title": "Rungkad", 
+    "name": "rungkad", 
+    "instrument": [
+      "drums", 
+      "bass", 
+      "guitar", 
+      "piano", 
+      "electricguitar", 
+      "synthesizer", 
+      "kendang", 
+      "acousticguitar", 
+      "keyboard"
+    ],
+    "moods": [
+      "happy", 
+      "love", 
+      "melodic", 
+      "background", 
+      "relaxing", 
+      "energetic", 
+      "romantic", 
+      "uplifting", 
+      "corporate", 
+      "positive"
+    ]
+}

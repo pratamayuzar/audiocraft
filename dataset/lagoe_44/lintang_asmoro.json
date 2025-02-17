@@ -1,0 +1,15 @@
+{
+    "key": "D#", 
+    "artist": "Shinta Arsinta feat Arya Galih", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "Blending traditional and contemporary elements to create a romantic and engaging song, suitable for rhythmic dance movements", 
+    "keywords": "Love, longing, and unwavering commitment, traditional and contemporary fusion", 
+    "duration": 315.54, 
+    "bpm": "129", 
+    "genre": "koplo", 
+    "title": "Lintang Asmoro", 
+    "name": "lintang_asmoro", 
+    "instrument": ["gamelan", "drums", "bass", "guitar", "synthesizer", "electricguitar", "kendang"], 
+    "moods": ["happy", "love", "melodic", "romantic"]
+}

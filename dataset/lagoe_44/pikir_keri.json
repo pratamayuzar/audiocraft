@@ -1,0 +1,15 @@
+{
+    "key": "F", 
+    "artist": "Shinta Arsinta", 
+    "sample_rate": 32000, 
+    "file_extension": "mp3", 
+    "description": "song that blends elements of Dangdut and Koplo. The mood of the song is lively and upbeat, encouraging listeners to dance and enjoy themselves. Instrumentally, it features traditional Indonesian instruments such as the gendang (a type of drum) and gamelan, combined with modern instruments like keyboards and electric guitars, creating a fusion of traditional and contemporary sounds.", 
+    "keywords": "dangdut, koplo, Javanese music, kendang, gamelan, upbeat, dance", 
+    "duration": 259.9, 
+    "bpm": "144", 
+    "genre": "koplo", 
+    "title": "Pikir Keri", 
+    "name": "pikir_keri", 
+    "instrument": ["synthesizer", "drums", "piano", "bass", "kendang", "electricguitar", "guitar", "keyboard"], 
+    "moods": ["happy", "slow", "love", "energetic", "melodic", "upbeat", "uplifting", "fun", "dark", "romantic"]
+}

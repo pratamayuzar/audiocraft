@@ -54,7 +54,7 @@ egs/*
 # local datasets
 dataset/*
 !dataset/example
-!dataset/lagoe
+!dataset/lagoe*
 
 # personal notebooks & scripts
 */local_scripts
@@ -63,3 +63,6 @@ dataset/*
 /notebooks
 /local_scripts
 /notes
+
+magnet_env/
+tensor_log/
