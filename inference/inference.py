@@ -27,7 +27,7 @@ output = magnet.generate([prompt], progress=True)  # Ensure the prompt is wrappe
 audio_tensor = output[0].cpu()
 
 # Save audio file
-OUTPUT_PATH = "/workspace/audiocraft/generated_music.wav"
+OUTPUT_PATH = "/workspace/audiocraft/inference/generated_music.wav"
 torchaudio.save(OUTPUT_PATH, audio_tensor, sample_rate=32000)
 
 print(f"✅ Audio file saved at: {OUTPUT_PATH}")
