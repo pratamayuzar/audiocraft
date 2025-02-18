@@ -10,7 +10,7 @@ ENCODEC_MODEL = "facebook/encodec_32khz"  # Change if using a custom EnCodec mod
 os.makedirs(EXPORT_DIR, exist_ok=True)
 
 # Export the fine-tuned MAGNeT model
-print("🚀 Exporting fine-tuned MAGNeT model...")
+print(f"🚀 Exporting fine-tuned MAGNeT model... FROM NO VOCAL: {CHECKPOINT_PATH}")
 export.export_lm(CHECKPOINT_PATH, os.path.join(EXPORT_DIR, "state_dict.bin"))
 
 # Export the EnCodec model (pretrained)
