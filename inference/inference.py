@@ -16,7 +16,11 @@ print("✅ Model loaded successfully!")
 prompt = "Energetic upbeat koplo music with strong kendang and bass, suitable for dancing."
 
 # Generate audio (MAGNeT will handle device placement)
-print("🎵 Generating music...")
+# Set maximum duration (e.g., 90 seconds)
+magnet.max_duration = 90  # Change this to your desired duration
+
+# Generate music
+print("🎵 Generating music for", magnet.max_duration, "seconds...")
 output = magnet.generate([prompt], progress=True)  # Ensure the prompt is wrapped in a list
 
 # Move generated tensor to CPU before saving
