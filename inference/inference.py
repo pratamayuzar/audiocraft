@@ -4,7 +4,7 @@ import audiocraft.models
 from audiocraft.utils.notebook import display_audio
 
 # Define checkpoint path
-CHECKPOINT_DIR = "/workspace/audiocraft/checkpoints/my_audio_lm/"
+CHECKPOINT_DIR = "/workspace/audiocraft/checkpoints/my_audio_lm_no_vocal/"
 
 # Load fine-tuned model
 print("🚀 Loading fine-tuned MAGNeT model...")
