@@ -2,7 +2,7 @@ import os
 from audiocraft.utils import export
 
 # Define paths
-CHECKPOINT_PATH = "/workspace/trained_model/no_vocal_250226/xps/97868b63/checkpoint.th"
+CHECKPOINT_PATH = "/workspace/trained_model/no_vocal_250226/xps/14ba9f91/checkpoint.th"
 EXPORT_DIR = "/workspace/audiocraft/checkpoints/my_audio_lm_no_vocal_250226/"
 ENCODEC_MODEL = "facebook/encodec_32khz"  # Change if using a custom EnCodec model
 
