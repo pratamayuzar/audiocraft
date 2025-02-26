@@ -1,0 +1,14 @@
+{
+    "key": "G", 
+    "artist": "Winda Nefira", 
+    "sample_rate": 44100, 
+    "file_extension": "mp3", 
+    "description": "The energetic, upbeat and danceable rhythm koplo with emotional and heartfelt melodies.",
+    "duration": 299.55, 
+    "bpm": "172", 
+    "genre": "koplo", 
+    "title": "Tak Sedalam Ini", 
+    "name": "tak_sedalam_ini", 
+    "instrument": ["drums", "bass", "guitar", "electricguitar", "kendang", "piano", "synthesizer", "acousticguitar", "flute"], 
+    "moods": ["happy", "melodic", "love", "relaxing", "uplifting", "positive", "corporate", "film", "romantic"]
+}    

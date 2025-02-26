@@ -1,0 +1,36 @@
+{
+    "key": "G", 
+    "artist": "Nella Karisma", 
+    "sample_rate": 44100, 
+    "file_extension": "mp3", 
+    "description": "Koplo with melancholic and nostalgic mood that resonates with deep emotions and everyday life. Incorporate traditional instruments such as gamelan, kendang, alongside modern instruments like acoustic guitar, and piano. Blend traditional rhythmic patterns with contemporary pop grooves.", 
+    "keywords": "koplo, kendang, melancholic, nostalgic, deep emotion", 
+    "duration": 286.56, 
+    "bpm": "144", 
+    "genre": "koplo", 
+    "title": "Pamer Bojo", 
+    "name": "pamer_bojo", 
+    "instrument": [
+      "synthesizer", 
+      "piano", 
+      "guitar", 
+      "electricguitar", 
+      "bass", 
+      "drums", 
+      "kendang"
+    ],
+    "moods": [
+      "happy", 
+      "melodic", 
+      "energetic",
+      "slow", 
+      "love", 
+      "uplifting", 
+      "corporate", 
+      "relaxing", 
+      "advertising", 
+      "romantic", 
+      "dark"
+    ]
+}
+

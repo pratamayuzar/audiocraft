@@ -1,0 +1,16 @@
+{
+    "key": "B", 
+    "artist": "Sinta Arsinta feat Ajeng Febria", 
+    "sample_rate": 44100, 
+    "file_extension": "mp3", 
+    "description": "Upbeat,energetic and danceable rhythms with catchy melodies koplo with traditional instruments such as gamelan and kendang, combined with modern instruments like keyboards and electric guitars.", 
+    "keywords": "koplo, kendang, upbeat, danceable, energetic, catchy melodies", 
+    "duration": 246.02, 
+    "bpm": "144", 
+    "genre": "koplo", 
+    "title": "Kimcil Kepolen", 
+    "name": "kimcil_kepolen", 
+    "instrument": ["drums", "bass", "guitar", "electricguitar", "piano", "synthesizer", "kendang"], 
+    "moods": ["happy", "uplifting", "positive", "advertising", "energetic", "corporate", "melodic", "upbeat", "inspiring", "background", "fun", "love", "motivational", "commercial"]
+}
+
