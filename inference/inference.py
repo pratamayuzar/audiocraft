@@ -13,7 +13,8 @@ magnet = audiocraft.models.MAGNeT.get_pretrained(CHECKPOINT_DIR)
 print("✅ Model loaded successfully!")
 
 # Define text prompt for music generation
-prompt = "Energetic upbeat koplo music with strong kendang and bass, suitable for dancing."
+# prompt = "Energetic upbeat koplo music with strong kendang and bass, suitable for dancing."
+prompt = "A lively koplo track with driving kendang rhythms, cheerful melodies on the keyboard, and strong, punchy percussion"
 
 # Generate audio (MAGNeT will handle device placement)
 # Set maximum duration (e.g., 90 seconds)
