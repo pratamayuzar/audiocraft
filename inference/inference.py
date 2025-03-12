@@ -4,7 +4,7 @@ import audiocraft.models
 from audiocraft.utils.notebook import display_audio
 
 # Define checkpoint path
-CHECKPOINT_DIR = "/workspace/audiocraft/checkpoints/my_audio_lm_no_vocal_250307/"
+CHECKPOINT_DIR = "/workspace/audiocraft/checkpoints/my_audio_lm_no_vocal_250312/"
 
 # Load fine-tuned model
 print("🚀 Loading fine-tuned MAGNeT model...")
@@ -28,7 +28,7 @@ output = magnet.generate([prompt], progress=True)  # Ensure the prompt is wrappe
 audio_tensor = output[0].cpu()
 
 # Save audio file
-OUTPUT_PATH = "/workspace/audiocraft/inference/generated_music_no_vocal_250307.wav"
+OUTPUT_PATH = "/workspace/audiocraft/inference/generated_music_no_vocal_250312.wav"
 torchaudio.save(OUTPUT_PATH, audio_tensor, sample_rate=32000)
 
 print(f"✅ Audio file saved at: {OUTPUT_PATH}")
