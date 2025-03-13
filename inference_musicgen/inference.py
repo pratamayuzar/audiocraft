@@ -4,7 +4,7 @@ from audiocraft.models import MusicGen
 from audiocraft.utils.notebook import display_audio
 
 # Load the exported fine-tuned model
-CHECKPOINT_PATH = "/workspace/audiocraft/exported/musicgen_base_250312.pth"
+CHECKPOINT_PATH = "/workspace/audiocraft/checkpoints/my_musicgen_model_no_vocal_250312/"
 print("🚀 Loading fine-tuned MusicGen model...")
 musicgen = MusicGen.get_pretrained(CHECKPOINT_PATH)
 print("✅ Model loaded successfully!")

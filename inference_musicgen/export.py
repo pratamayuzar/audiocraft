@@ -1,24 +1,24 @@
 import os
-import torch
-from audiocraft.models import MusicGen
+from audiocraft.utils import export
 
 # Define paths
 CHECKPOINT_PATH = "/workspace/trained_model/no_vocal_250312/xps/a787bbb9/checkpoint.th"
-EXPORT_DIR = "/workspace/audiocraft/exported"
-EXPORT_PATH = os.path.join(EXPORT_DIR, "musicgen_base_250312.pth")
+EXPORT_DIR = "/workspace/audiocraft/checkpoints/my_musicgen_model_no_vocal_250312/"
+ENCODEC_MODEL = "facebook/encodec_32khz"  # Change if using a custom EnCodec model
 
-print("✅ Model export start!")
-
-# Ensure the export directory exists
+# Ensure export directory exists
 os.makedirs(EXPORT_DIR, exist_ok=True)
 
-# Load the trained model from checkpoint
-print("🚀 Loading trained MusicGen model from checkpoint...")
-model = MusicGen.get_pretrained(CHECKPOINT_PATH)
+# Export the fine-tuned MusicGen model
+print(f"🚀 Exporting fine-tuned MusicGen model from: {CHECKPOINT_PATH}")
+export.export_musicgen_lm(CHECKPOINT_PATH, os.path.join(EXPORT_DIR, "state_dict.bin"))
 
-# Save the model in the required format
-print(f"💾 Saving exported model to {EXPORT_PATH} ...")
-torch.save(model.state_dict(), EXPORT_PATH)
+# Export the EnCodec model (pretrained)
+print("🎼 Exporting EnCodec model...")
+export.export_pretrained_compression_model(
+    ENCODEC_MODEL,
+    os.path.join(EXPORT_DIR, "compression_state_dict.bin")
+)
 
-print("✅ Model export completed successfully!")
+print("✅ Model export completed!")
 print(f"📂 Files saved to: {EXPORT_DIR}")
