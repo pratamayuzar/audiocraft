@@ -11,7 +11,7 @@ os.makedirs(EXPORT_DIR, exist_ok=True)
 
 # Export the fine-tuned MusicGen model
 print(f"🚀 Exporting fine-tuned MusicGen model from: {CHECKPOINT_PATH}")
-export.export_musicgen_lm(CHECKPOINT_PATH, os.path.join(EXPORT_DIR, "state_dict.bin"))
+export.export_lm(CHECKPOINT_PATH, os.path.join(EXPORT_DIR, "state_dict.bin"))  # ✅ FIXED FUNCTION
 
 # Export the EnCodec model (pretrained)
 print("🎼 Exporting EnCodec model...")
