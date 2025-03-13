@@ -4,7 +4,7 @@ from audiocraft.models import MusicGen
 from audiocraft.utils.notebook import display_audio
 
 # Load the exported fine-tuned model
-CHECKPOINT_PATH = "/workspace/audiocraft/exported/musicgen_base_250312.pt"
+CHECKPOINT_PATH = "/workspace/audiocraft/exported/musicgen_base_250312.pth"
 print("🚀 Loading fine-tuned MusicGen model...")
 musicgen = MusicGen.get_pretrained(CHECKPOINT_PATH)
 print("✅ Model loaded successfully!")
@@ -22,6 +22,6 @@ output = musicgen.generate(prompts, progress=True)  # Generate music for both pr
 # Save generated audio files
 for i, audio_tensor in enumerate(output):
     audio_tensor = audio_tensor.cpu()  # Move to CPU before saving
-    output_path = f"/workspace/audiocraft/inference/generated_music_{i+1}.wav"
+    output_path = f"/workspace/audiocraft/inference_musicgen/generated_music_{i+1}.wav"
     torchaudio.save(output_path, audio_tensor, sample_rate=32000)
     print(f"✅ Audio file saved at: {output_path}")
