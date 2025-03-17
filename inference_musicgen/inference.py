@@ -1,8 +1,7 @@
+import os
 import torch
 import torchaudio
-import os
 from audiocraft.models import MusicGen
-from audiocraft.utils.notebook import display_audio
 
 # Load the exported fine-tuned model
 CHECKPOINT_PATH = "/workspace/audiocraft/checkpoints/my_musicgen_model_no_vocal_250312/"
@@ -17,11 +16,11 @@ prompts = [
 ]
 
 # Set custom duration (e.g., 60 seconds)
-duration = 60  # Increase duration as needed
+musicgen.set_generation_params(duration=60)  # ✅ Correct way to set duration
 
 # Generate audio from prompts
-print(f"🎵 Generating {duration}-second music...")
-output = musicgen.generate(prompts, duration=duration, progress=True)  # ✅ Set duration
+print(f"🎵 Generating {musicgen.duration}-second music...")
+output = musicgen.generate(prompts, progress=True)  # No duration argument here
 
 # Save generated audio files
 OUTPUT_DIR = "/workspace/audiocraft/inference_musicgen/test/"
