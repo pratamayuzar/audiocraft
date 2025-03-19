@@ -4,7 +4,7 @@ import torchaudio
 from audiocraft.models import MusicGen
 
 # Load the exported fine-tuned model
-CHECKPOINT_PATH = "/workspace/audiocraft/checkpoints/my_musicgen_model_no_vocal_250312/"
+CHECKPOINT_PATH = "/workspace/audiocraft/checkpoints/my_musicgen_model_no_vocal_250319/"
 print("🚀 Loading fine-tuned MusicGen model...")
 musicgen = MusicGen.get_pretrained(CHECKPOINT_PATH)
 print("✅ Model loaded successfully!")
