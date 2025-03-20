@@ -23,7 +23,7 @@ print(f"🎵 Generating {musicgen.duration}-second music...")
 output = musicgen.generate(prompts, progress=True)  # No duration argument here
 
 # Save generated audio files
-OUTPUT_DIR = "/workspace/audiocraft/inference_musicgen/test/"
+OUTPUT_DIR = "/workspace/audiocraft/inference_musicgen/audio-250319/"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 for i, audio_tensor in enumerate(output):
