@@ -45,5 +45,6 @@ if __name__ == "__main__":
     os.remove(key_path)  # Optional: clean up the key file
 
 
+# pip install google-cloud-storage
 # export GCP_KEY_B64="PASTE_YOUR_BASE64_ENCODED_SERVICE_ACCOUNT_KEY"
 # python backup_to_gcs.py
