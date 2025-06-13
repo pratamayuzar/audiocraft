@@ -7,7 +7,7 @@ from google.cloud import storage
 # === CONFIGURATION ===
 LOCAL_MODEL_PATH = "/workspace/trained_model/no_vocal_250319/xps/3f71076c/checkpoint.th"
 ARCHIVE_FILENAME = "checkpoint_backup.tar.gz"
-ARCHIVE_PATH = f"/tmp/{ARCHIVE_FILENAME}"
+ARCHIVE_PATH = f"/workspace/{ARCHIVE_FILENAME}"
 
 GCS_BUCKET_NAME = "finetuning-dataset"
 GCS_DESTINATION_PATH = f"checkpoint/musicgen-koplo/{ARCHIVE_FILENAME}"
